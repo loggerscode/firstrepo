@@ -1,5 +1,2 @@
 # firstrepo
-Praktikumsaufgaben
-die ich machen musste
-xD
-
+Praktikumsaufgaben von Mai 2016
