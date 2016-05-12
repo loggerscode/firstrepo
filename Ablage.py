@@ -170,3 +170,13 @@ b = []
 b.append(a[0])              #lange Version
 b.append(a[-1])
 print(b)
+
+
+
+Problem Nr. 14
+
+print("Problem Nr.14")
+a = [5,10,15,5,20,25,30,15]
+b = list(set(a))        #Set sortiert die Duplikate aus der Liste heraus
+b.sort()                #sort sortiert die Zahlen nach ihrer Größe (Wert)
+print(b)
