@@ -34,9 +34,9 @@ def cows_bulls_gen(length):
         gen.append(random.randint(0, 9))
     return gen
 
-# def print_num(pc, user):
-#     print(pc)
-#     print(user)
+def print_num(pc, user):
+    print(pc)
+    print(user)
 
 def srch_cow_bull(generated_list, input_list):
     i = 0
@@ -62,7 +62,7 @@ def equals(gen, user):
 
 guess = read_input(max_length=None)
 gen = cows_bulls_gen(len(guess))
-#print_num(gen, guess)
+#print_num(gen, guess)                  #uncomment if you want to see the both the generated and the user input list
 
 cows = 0
 while cows != len(gen):
